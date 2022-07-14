@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./components/Header.jsx";
-import Footer from "./components/Footer.jsx";
 import { Route, Routes } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
@@ -56,7 +55,6 @@ const App = () => {
         <Route path="/admin/product/:id/edit" element={<ProductEditScreen />} />
         <Route path="/admin/orderlist" element={<OrderListScreen />} />
       </Routes>
-      <Footer />
     </>
   );
 };
