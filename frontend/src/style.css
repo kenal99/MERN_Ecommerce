@@ -1,0 +1,52 @@
+.line-clamp-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-info {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.pagination > li > a {
+  background-color: white;
+  color: black;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: black;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.pagination > .active_bg > a {
+  color: white;
+  background-color: black;
+  border: solid 1px black;
+}
+
+.pagination > .active_bg > a:hover {
+  background-color: black;
+  border: solid 1px black;
+}
